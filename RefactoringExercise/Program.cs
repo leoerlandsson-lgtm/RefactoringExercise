@@ -16,7 +16,7 @@ namespace RefactoringExercise
             //4- Hantera errors. Informera om fel och/eller skapa kod som inte crashar.
             //5- Ge feedback till användaren. Om den skriver fel ska den få veta varför.
             
-            int answer = -1;
+            int answer = -1;                    //koden startar inte? finns ett fel som jag inte hittar
 
             while (answer != 0)
             {
@@ -32,7 +32,7 @@ namespace RefactoringExercise
                         {
                             Console.Write(" # ");
                         }
-                }else if(answer == 2)
+                }else if(answer == 2)      //Methods behövs istället för else if
                 {
                     Console.Write("How many hashtags (max 10)? ");
                     int times = int.Parse(Console.ReadLine());
