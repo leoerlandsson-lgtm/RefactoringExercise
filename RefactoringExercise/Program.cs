@@ -25,7 +25,8 @@ namespace RefactoringExercise
                 answer = int.Parse(Console.ReadLine());
 
                 //Example Comment
-                if (answer == 1)
+                //if (answer == 1)
+                void answerOne()
                 {
                         Console.WriteLine("");
                         for (int i = 0; i < 6; i++)
